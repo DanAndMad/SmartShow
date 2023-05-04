@@ -1,0 +1,6 @@
+framework module GPhotos {
+  umbrella header "GPhotos-umbrella.h"
+
+  export *
+  module * { export * }
+}

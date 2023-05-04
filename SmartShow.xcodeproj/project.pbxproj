@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65645B2B29EF140F00E69F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659EC60329EE4B6200F00A1E /* Assets.xcassets */; };
+		659EC60029EE4B6100F00A1E /* SmartShowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC5FF29EE4B6100F00A1E /* SmartShowApp.swift */; };
+		659EC60229EE4B6100F00A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC60129EE4B6100F00A1E /* ContentView.swift */; };
+		659EC60F29EE5C7000F00A1E /* client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 659EC60E29EE5C7000F00A1E /* client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist */; };
+		659EC61329EE6EBB00F00A1E /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC61229EE6EBB00F00A1E /* SignUpTitleView.swift */; };
+		659EC61529EE716F00F00A1E /* SignUpItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC61429EE716F00F00A1E /* SignUpItemView.swift */; };
+		659EC61729EE73EB00F00A1E /* SignUpItemsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC61629EE73EB00F00A1E /* SignUpItemsGroupView.swift */; };
+		659EC61929EE79D000F00A1E /* SwitchToLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC61829EE79D000F00A1E /* SwitchToLoginView.swift */; };
+		659EC61B29EE7DDA00F00A1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 659EC61A29EE7DDA00F00A1E /* GoogleService-Info.plist */; };
+		659EC62229EE817A00F00A1E /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC62129EE817A00F00A1E /* SignUpVM.swift */; };
+		659EC62529EE82C200F00A1E /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC62429EE82C200F00A1E /* Application.swift */; };
+		659EC62929EE8F6000F00A1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 659EC62829EE8F6000F00A1E /* FirebaseAuth */; };
+		65C5F9F32A02B3A6005AED12 /* MyVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F22A02B3A6005AED12 /* MyVariables.swift */; };
+		65C5FA1A2A039BAC005AED12 /* BTLEObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5FA192A039BAC005AED12 /* BTLEObject.swift */; };
+		CF19B2B535E13A2D4A2408D2 /* Pods_SmartShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E63084365011B6963E0E26C /* Pods_SmartShow.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF43EE661E211BDCF3CF1D4 /* Pods-SmartShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartShow.debug.xcconfig"; path = "Target Support Files/Pods-SmartShow/Pods-SmartShow.debug.xcconfig"; sourceTree = "<group>"; };
+		658DA88429EE968900FAEC4A /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		659EC5FC29EE4B6100F00A1E /* SmartShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659EC5FF29EE4B6100F00A1E /* SmartShowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShowApp.swift; sourceTree = "<group>"; };
+		659EC60129EE4B6100F00A1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		659EC60329EE4B6200F00A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659EC60629EE4B6200F00A1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		659EC60D29EE4D1C00F00A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		659EC60E29EE5C7000F00A1E /* client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		659EC61229EE6EBB00F00A1E /* SignUpTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTitleView.swift; sourceTree = "<group>"; };
+		659EC61429EE716F00F00A1E /* SignUpItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemView.swift; sourceTree = "<group>"; };
+		659EC61629EE73EB00F00A1E /* SignUpItemsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemsGroupView.swift; sourceTree = "<group>"; };
+		659EC61829EE79D000F00A1E /* SwitchToLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLoginView.swift; sourceTree = "<group>"; };
+		659EC61A29EE7DDA00F00A1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		659EC62129EE817A00F00A1E /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		659EC62429EE82C200F00A1E /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		65C5F9F22A02B3A6005AED12 /* MyVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVariables.swift; sourceTree = "<group>"; };
+		65C5FA192A039BAC005AED12 /* BTLEObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BTLEObject.swift; path = ../../Smartshow/Smartshow/BTLEObject.swift; sourceTree = "<group>"; };
+		6E63084365011B6963E0E26C /* Pods_SmartShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED92ACD89E20F6BFE5F95FC5 /* Pods-SmartShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartShow.release.xcconfig"; path = "Target Support Files/Pods-SmartShow/Pods-SmartShow.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659EC5F929EE4B6100F00A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659EC62929EE8F6000F00A1E /* FirebaseAuth in Frameworks */,
+				CF19B2B535E13A2D4A2408D2 /* Pods_SmartShow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659EC5F329EE4B6100F00A1E = {
+			isa = PBXGroup;
+			children = (
+				659EC5FE29EE4B6100F00A1E /* Smartshow */,
+				659EC5FD29EE4B6100F00A1E /* Products */,
+				DF6E65E0691400ADEE3E1319 /* Pods */,
+				E3A6717BED93F1289DB48926 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		659EC5FD29EE4B6100F00A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659EC5FC29EE4B6100F00A1E /* SmartShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659EC5FE29EE4B6100F00A1E /* Smartshow */ = {
+			isa = PBXGroup;
+			children = (
+				659EC62329EE82A700F00A1E /* Utilities */,
+				659EC62029EE814A00F00A1E /* ViewModel */,
+				659EC61A29EE7DDA00F00A1E /* GoogleService-Info.plist */,
+				659EC61029EE6E5600F00A1E /* View */,
+				659EC60E29EE5C7000F00A1E /* client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist */,
+				659EC60D29EE4D1C00F00A1E /* Info.plist */,
+				659EC5FF29EE4B6100F00A1E /* SmartShowApp.swift */,
+				659EC60129EE4B6100F00A1E /* ContentView.swift */,
+				659EC60329EE4B6200F00A1E /* Assets.xcassets */,
+				659EC60529EE4B6200F00A1E /* Preview Content */,
+				65C5FA192A039BAC005AED12 /* BTLEObject.swift */,
+			);
+			path = Smartshow;
+			sourceTree = "<group>";
+		};
+		659EC60529EE4B6200F00A1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				659EC60629EE4B6200F00A1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		659EC61029EE6E5600F00A1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				659EC61129EE6E6B00F00A1E /* SignUp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		659EC61129EE6E6B00F00A1E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				659EC61229EE6EBB00F00A1E /* SignUpTitleView.swift */,
+				659EC61429EE716F00F00A1E /* SignUpItemView.swift */,
+				659EC61629EE73EB00F00A1E /* SignUpItemsGroupView.swift */,
+				659EC61829EE79D000F00A1E /* SwitchToLoginView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		659EC62029EE814A00F00A1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				659EC62129EE817A00F00A1E /* SignUpVM.swift */,
+				65C5F9F22A02B3A6005AED12 /* MyVariables.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		659EC62329EE82A700F00A1E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				659EC62429EE82C200F00A1E /* Application.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DF6E65E0691400ADEE3E1319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF43EE661E211BDCF3CF1D4 /* Pods-SmartShow.debug.xcconfig */,
+				ED92ACD89E20F6BFE5F95FC5 /* Pods-SmartShow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3A6717BED93F1289DB48926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658DA88429EE968900FAEC4A /* GoogleSignIn.framework */,
+				6E63084365011B6963E0E26C /* Pods_SmartShow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659EC5FB29EE4B6100F00A1E /* SmartShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659EC60A29EE4B6200F00A1E /* Build configuration list for PBXNativeTarget "SmartShow" */;
+			buildPhases = (
+				9F11E4A05075785868402CEA /* [CP] Check Pods Manifest.lock */,
+				659EC5F829EE4B6100F00A1E /* Sources */,
+				659EC5F929EE4B6100F00A1E /* Frameworks */,
+				659EC5FA29EE4B6100F00A1E /* Resources */,
+				CDF581C51D087056C48CB1DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartShow;
+			packageProductDependencies = (
+				659EC62829EE8F6000F00A1E /* FirebaseAuth */,
+			);
+			productName = SmartShow;
+			productReference = 659EC5FC29EE4B6100F00A1E /* SmartShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659EC5F429EE4B6100F00A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					659EC5FB29EE4B6100F00A1E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 659EC5F729EE4B6100F00A1E /* Build configuration list for PBXProject "SmartShow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659EC5F329EE4B6100F00A1E;
+			packageReferences = (
+				659EC62729EE8F6000F00A1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 659EC5FD29EE4B6100F00A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659EC5FB29EE4B6100F00A1E /* SmartShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659EC5FA29EE4B6100F00A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65645B2B29EF140F00E69F99 /* Assets.xcassets in Resources */,
+				659EC61B29EE7DDA00F00A1E /* GoogleService-Info.plist in Resources */,
+				659EC60F29EE5C7000F00A1E /* client_441352721007-171ivlvjdim7kuisrli35h9oujmj9s02.apps.googleusercontent.com.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F11E4A05075785868402CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF581C51D087056C48CB1DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartShow/Pods-SmartShow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartShow/Pods-SmartShow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartShow/Pods-SmartShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659EC5F829EE4B6100F00A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659EC62529EE82C200F00A1E /* Application.swift in Sources */,
+				659EC62229EE817A00F00A1E /* SignUpVM.swift in Sources */,
+				659EC60229EE4B6100F00A1E /* ContentView.swift in Sources */,
+				659EC61329EE6EBB00F00A1E /* SignUpTitleView.swift in Sources */,
+				659EC60029EE4B6100F00A1E /* SmartShowApp.swift in Sources */,
+				659EC61729EE73EB00F00A1E /* SignUpItemsGroupView.swift in Sources */,
+				659EC61529EE716F00F00A1E /* SignUpItemView.swift in Sources */,
+				659EC61929EE79D000F00A1E /* SwitchToLoginView.swift in Sources */,
+				65C5FA1A2A039BAC005AED12 /* BTLEObject.swift in Sources */,
+				65C5F9F32A02B3A6005AED12 /* MyVariables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		659EC60829EE4B6200F00A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659EC60929EE4B6200F00A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659EC60B29EE4B6200F00A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF43EE661E211BDCF3CF1D4 /* Pods-SmartShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartShow/Preview Content\"";
+				DEVELOPMENT_TEAM = M5RD62S5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartShow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andre.SmartShow.SmartShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659EC60C29EE4B6200F00A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED92ACD89E20F6BFE5F95FC5 /* Pods-SmartShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartShow/Preview Content\"";
+				DEVELOPMENT_TEAM = M5RD62S5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartShow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andre.SmartShow.SmartShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659EC5F729EE4B6100F00A1E /* Build configuration list for PBXProject "SmartShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659EC60829EE4B6200F00A1E /* Debug */,
+				659EC60929EE4B6200F00A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659EC60A29EE4B6200F00A1E /* Build configuration list for PBXNativeTarget "SmartShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659EC60B29EE4B6200F00A1E /* Debug */,
+				659EC60C29EE4B6200F00A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		659EC62729EE8F6000F00A1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		659EC62829EE8F6000F00A1E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659EC62729EE8F6000F00A1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 659EC5F429EE4B6100F00A1E /* Project object */;
+}

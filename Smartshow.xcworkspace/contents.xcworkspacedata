@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/andre/Desktop/CWRU/2022-2023/Spring 2023/ECSE 377/SmartShow/SmartShow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SmartShow.xcodeproj">
+   </FileRef>
+</Workspace>
