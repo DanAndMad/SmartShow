@@ -66,19 +66,7 @@ struct ContentView: View {
                             .foregroundColor(Color("hyperLink"))
                     })
                     
-                    //Spacer()
-                    //GoogleSignInButton(action: appDelegate.handleSignInButton)
-                    
                     Spacer()
-                    
-                    //Button {action: GIDSignIn.sharedInstance.signOut()}
-//                    Button(action: {GIDSignIn.sharedInstance.signOut()}, label: {
-//                        Text("Sign Out")
-//                            .font(.body)
-//                            .foregroundColor(Color("hyperLink"))
-                    
-                   
-                    
                     
                     HStack(alignment: .center, spacing: 50) {
                         
@@ -151,8 +139,8 @@ struct ContentView: View {
                             Button (action: {
                                 //btleObj.state.charTest = MyVariables.playStopBool
                                 btleObj.state.isCredential = true
-                                //btleObj.state.credentialString = "{\"token\": \"ya29.a0AWY7CkmlHkpRyyrKNbOnQFZKVr3j7AeV2kihQereXm6KeSx5EXZo4DQhRalIienAgktDyMedSchmBOVultpJNUS8A88ngnPSJWl4qOCSo0sMdw4nXemLHjt2uGMN6hieic4F6Tk1WNgGJVDDMg4vGfXH4mGONHoGaCgYKAa0SARESFQG1tDrpC6KVOoRJEl17IedlqAJREQ0167\", \"refresh_token\": \"1//0dXYtn7zBnI1sCgYIARAAGA0SNwF-L9IrtBp3h5389xtmhm9NC73bzQdKyZSNIwCKywJxa817atenASpLENqF568EOElFNiSfLz8\", \"client_id\": \"1028627541130-cek95c7jpv3p8jnrmr0vjrt7a5i8un0i.apps.googleusercontent.com\", \"client_secret\": \"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\"}" //"{\"token\": \"\(MyVariables.accessToken)\", \"refresh_token\": \"\(MyVariables.refreshToken)\", \"client_id\": \"\(MyVariables.clientID)\", \"client_secret\": \"\(MyVariables.clientSecret)\"}"
-                                btleObj.state.credentialString = "{\"token\": \"\(MyVariables.accessToken)\", \"refresh_token\": \"\(MyVariables.refreshToken)\", \"client_id\": \"\(MyVariables.clientID)\", \"client_secret\": \"\(MyVariables.clientSecret)\"}"
+                                btleObj.state.credentialString = "{\"token\": \"ya29.a0AWY7CkmlHkpRyyrKNbOnQFZKVr3j7AeV2kihQereXm6KeSx5EXZo4DQhRalIienAgktDyMedSchmBOVultpJNUS8A88ngnPSJWl4qOCSo0sMdw4nXemLHjt2uGMN6hieic4F6Tk1WNgGJVDDMg4vGfXH4mGONHoGaCgYKAa0SARESFQG1tDrpC6KVOoRJEl17IedlqAJREQ0167\", \"refresh_token\": \"1//0dXYtn7zBnI1sCgYIARAAGA0SNwF-L9IrtBp3h5389xtmhm9NC73bzQdKyZSNIwCKywJxa817atenASpLENqF568EOElFNiSfLz8\", \"client_id\": \"1028627541130-cek95c7jpv3p8jnrmr0vjrt7a5i8un0i.apps.googleusercontent.com\", \"client_secret\": \"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\"}" //"{\"token\": \"\(MyVariables.accessToken)\", \"refresh_token\": \"\(MyVariables.refreshToken)\", \"client_id\": \"\(MyVariables.clientID)\", \"client_secret\": \"\(MyVariables.clientSecret)\"}"
+                                //btleObj.state.credentialString = "{\"token\": \"\(MyVariables.accessToken)\", \"refresh_token\": \"\(MyVariables.refreshToken)\", \"client_id\": \"\(MyVariables.clientID)\", \"client_secret\": \"\(MyVariables.clientSecret)\"}"
                                 //btleObj.state.bigString = "12345a 12345a"
                             }, label: {
                                 Text("Send Credential Settings")
@@ -217,78 +205,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-
-//Button {
-//
-//} label: { SwitchToLoginView()
-//        .padding(.bottom,
-//                 UIApplication.shared.windows.first?.safeAreaInsets.bottom)
-//        .controlSize(.large)
-//}
-
-
-//                    })
-                    
-                    
-//                    Spacer()
-                    
-                    //signup with email
-                    
-                    //switch to login portion
-                    
-            
-            
-//            Text("ECSE 377 Final Project Midpoint Demo!")
-//            GoogleSignInButton(action: handleSignInButton)
-
-
-//
-//Menu {
-//    Button {
-//        // do something
-//    } label: {
-//        Text("Linear")
-//        Image(systemName: "arrow.down.right.circle")
-//    }
-//    Button {
-//        // do something
-//    } label: {
-//        Text("Radial")
-//        Image(systemName: "arrow.up.and.down.circle")
-//    }
-//    Button {
-//        // do something
-//    } label: {
-//        Text("Style")
-//        Image(systemName: "tag.circle")
-//    }
-//}
-
-//                            .onTapGesture {
-//                                //print(isPlay)
-//
-//                            }
-                            
-//                            Button(action: {
-//                                //btleObj.state.playStop = MyVariables.playStopBool
-//                                //appDelegate.testBLE()
-//                                //btleObj.writeOutgoingValue(data: "state: stop")
-//                                //print("btleObj.state.playStop: \(btleObj.state.playStop)")
-//                                //print("MyVariable.playStop: \(MyVariables.playStopBool)")
-//                            }, label: {
-//                                Text("Test BLE")
-//                                    .font(.body)
-//                            })
-
-
-//Picker(selection: $selectedPlayStop, label: Text("")) {
-//                    ForEach(playStop, id: \.self) {
-//                        Text($0)
-//                    }
-//                }
-//.onReceive([selectedPlayStop].publisher.first()) { value in
-//    MyVariables.playStopBool = value
-//    print("Selected play/stop: \(value)")
-//}

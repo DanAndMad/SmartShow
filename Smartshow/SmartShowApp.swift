@@ -34,22 +34,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     @EnvironmentObject var signupVM: SmartShowViewModel
     var signupVMObj = SmartShowViewModel()
     
-//    private func setupPeripheral() {
-//        if let lampiPeripheral = lampiPeripheral  {
-//            lampiPeripheral.delegate = self
-//        }
-//    }
-//
-//    private var devicePeripheral: CBPeripheral?
-//
-//    var lampiPeripheral: CBPeripheral? {
-//        didSet {
-//            setupPeripheral()
-//        }
-//    }
-    
-    //let viewController = UIApplication.shared.windows.first?.rootViewController as? YourViewController
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         
         FirebaseApp.configure()
@@ -61,10 +45,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                 print("checking sign in: \(GIDSignIn.sharedInstance.hasPreviousSignIn())")
                 //print("AUTHENTICATION: \(user?.serverAuthCode)")
             } else {
-//                var config = GIDConfiguration()
-//                config.printLogs = false
-//                GPhotos.initialize(with: config)
-                    // Other configs
                 print("GIDsignin: signed-in state w/ user: \(user)")
                 print("checking sign in: \(GIDSignIn.sharedInstance.hasPreviousSignIn())")
                 //print("AUTHENTICATION: \(user.serverAuthCode)")
@@ -100,14 +80,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         print("request: \(request)")
         request.httpMethod = "GET"
         
-//        request.allHTTPHeaderFields = [
-//            "x-goog-api-key": MyVariables.accessToken
-//        ]
-        //request.addValue(MyVariables.accessToken, forHTTPHeaderField: "Authorization")
-        
-        //request.httpBody = try? JSONSerialization.data(withJSONObject: params, options: [])
-        //request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-
         let session = URLSession.shared
         //print("session: \(session) \n \n")
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
@@ -128,7 +100,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                             print("albumIDString: \(albumIDString)")
                             MyVariables.albumIDStringArray.append(albumIDString)
                         }
-                        
                     }
                 }
                 
@@ -205,117 +176,4 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             }
         }
     }
-    
-    
-    
-    //let fields: GMSPlaceField = try! GMSPlaceField(rawValue: UInt64(GMSPlaceField.photos.rawValue))
-    //let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt64(GMSPlaceField.photos.rawValue))
 }
-
-
-
-    //func handleSignInButton() {
-    //    GIDSignIn.sharedInstance.signIn(withPresenting: rootViewController)
-    //    { signInResult, error in guard let result = signInResult else {
-    //        // Inspect error
-    //        return
-    //        }
-    //      // If sign in succeeded, display the app's main content View.
-    //    }
-    //}
-
-
-//    func handleSignInButton() {
-//      GIDSignIn.sharedInstance.signIn(
-//        withPresenting: rootViewController!) { signInResult, error in
-//          guard let result = signInResult else {
-//            // Inspect error
-//            return
-//          }
-//          // If sign in succeeded, display the app's main content View.
-//        }
-//
-//    }
-
-    
-
-
-//import SwiftUI
-//import GoogleSignIn
-//
-//var rootViewController: UIViewController?
-//
-//@main
-//struct SmartShowApp: App {s
-//    var body: some Scene {
-//      WindowGroup {
-//        ContentView()
-//          // ...
-//          .onAppear {
-//            GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
-//              // Check if `user` exists; otherwise, do something with `error`
-//            }
-//          }
-//      }
-//    }
-//}
-//
-//class AppDelegate: NSObject, UIApplicationDelegate {
-//
-//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
-//
-//        GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
-//          if error != nil || user == nil {
-//            // Show the app's signed-out state.
-//          } else {
-//            // Show the app's signed-in state.
-//          }
-//        }
-//        return true
-//    }
-//
-//    func application(_ app: UIApplication,open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]
-//        = [:]) -> Bool {
-//        return GIDSignIn.sharedInstance.handle(url)
-//    }
-//
-//
-//
-//
-//    //func handleSignInButton() {
-//    //    GIDSignIn.sharedInstance.signIn(withPresenting: rootViewController)
-//    //    { signInResult, error in guard let result = signInResult else {
-//    //        // Inspect error
-//    //        return
-//    //        }
-//    //      // If sign in succeeded, display the app's main content View.
-//    //    }
-//    //}
-//
-//
-////    func handleSignInButton() {
-////      GIDSignIn.sharedInstance.signIn(
-////        withPresenting: rootViewController!) { signInResult, error in
-////          guard let result = signInResult else {
-////            // Inspect error
-////            return
-////          }
-////          // If sign in succeeded, display the app's main content View.
-////        }
-////
-////    }
-//
-//
-//}
-
-
-//let album = json["album"]
-//print("albumTEST: \(album)")
-//                if let album = json["album"] as? [String] {
-//                    print("titles: \(album)")
-//                }
-
-
-
-
-//MyVariables.albumTitleStringArray.append(album["title"]!)

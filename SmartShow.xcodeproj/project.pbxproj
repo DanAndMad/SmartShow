@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65051C232A01A135008EF046 /* SmartShowAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65051C222A01A135008EF046 /* SmartShowAlbum.swift */; };
 		65645B2B29EF140F00E69F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659EC60329EE4B6200F00A1E /* Assets.xcassets */; };
 		659EC60029EE4B6100F00A1E /* SmartShowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC5FF29EE4B6100F00A1E /* SmartShowApp.swift */; };
 		659EC60229EE4B6100F00A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC60129EE4B6100F00A1E /* ContentView.swift */; };
@@ -20,20 +19,13 @@
 		659EC62229EE817A00F00A1E /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC62129EE817A00F00A1E /* SignUpVM.swift */; };
 		659EC62529EE82C200F00A1E /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EC62429EE82C200F00A1E /* Application.swift */; };
 		659EC62929EE8F6000F00A1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 659EC62829EE8F6000F00A1E /* FirebaseAuth */; };
-		65C5F9EF2A020E62005AED12 /* LampiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9EE2A020E62005AED12 /* LampiManager.swift */; };
-		65C5F9F12A020EB3005AED12 /* Lampi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F02A020EB3005AED12 /* Lampi.swift */; };
 		65C5F9F32A02B3A6005AED12 /* MyVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F22A02B3A6005AED12 /* MyVariables.swift */; };
-		65C5F9F52A02BE80005AED12 /* ImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F42A02BE80005AED12 /* ImportTests.swift */; };
-		65C5F9F72A02CDDC005AED12 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F62A02CDDC005AED12 /* API.swift */; };
-		65C5F9FA2A031E01005AED12 /* LampiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9F92A031E01005AED12 /* LampiApp.swift */; };
-		65C5F9FC2A031F91005AED12 /* BTLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F9FB2A031F91005AED12 /* BTLE.swift */; };
 		65C5FA1A2A039BAC005AED12 /* BTLEObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5FA192A039BAC005AED12 /* BTLEObject.swift */; };
 		CF19B2B535E13A2D4A2408D2 /* Pods_SmartShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E63084365011B6963E0E26C /* Pods_SmartShow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AF43EE661E211BDCF3CF1D4 /* Pods-SmartShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartShow.debug.xcconfig"; path = "Target Support Files/Pods-SmartShow/Pods-SmartShow.debug.xcconfig"; sourceTree = "<group>"; };
-		65051C222A01A135008EF046 /* SmartShowAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShowAlbum.swift; sourceTree = "<group>"; };
 		658DA88429EE968900FAEC4A /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659EC5FC29EE4B6100F00A1E /* SmartShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659EC5FF29EE4B6100F00A1E /* SmartShowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShowApp.swift; sourceTree = "<group>"; };
@@ -49,13 +41,7 @@
 		659EC61A29EE7DDA00F00A1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		659EC62129EE817A00F00A1E /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
 		659EC62429EE82C200F00A1E /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
-		65C5F9EE2A020E62005AED12 /* LampiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampiManager.swift; sourceTree = "<group>"; };
-		65C5F9F02A020EB3005AED12 /* Lampi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lampi.swift; sourceTree = "<group>"; };
 		65C5F9F22A02B3A6005AED12 /* MyVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVariables.swift; sourceTree = "<group>"; };
-		65C5F9F42A02BE80005AED12 /* ImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTests.swift; sourceTree = "<group>"; };
-		65C5F9F62A02CDDC005AED12 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = ../../Smartshow/Smartshow/API.swift; sourceTree = "<group>"; };
-		65C5F9F92A031E01005AED12 /* LampiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampiApp.swift; sourceTree = "<group>"; };
-		65C5F9FB2A031F91005AED12 /* BTLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLE.swift; sourceTree = "<group>"; };
 		65C5FA192A039BAC005AED12 /* BTLEObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BTLEObject.swift; path = ../../Smartshow/Smartshow/BTLEObject.swift; sourceTree = "<group>"; };
 		6E63084365011B6963E0E26C /* Pods_SmartShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED92ACD89E20F6BFE5F95FC5 /* Pods-SmartShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartShow.release.xcconfig"; path = "Target Support Files/Pods-SmartShow/Pods-SmartShow.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,14 +60,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65051C212A01A105008EF046 /* AlbumProcessing */ = {
-			isa = PBXGroup;
-			children = (
-				65051C222A01A135008EF046 /* SmartShowAlbum.swift */,
-			);
-			path = AlbumProcessing;
-			sourceTree = "<group>";
-		};
 		659EC5F329EE4B6100F00A1E = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +81,6 @@
 		659EC5FE29EE4B6100F00A1E /* Smartshow */ = {
 			isa = PBXGroup;
 			children = (
-				65051C212A01A105008EF046 /* AlbumProcessing */,
 				659EC62329EE82A700F00A1E /* Utilities */,
 				659EC62029EE814A00F00A1E /* ViewModel */,
 				659EC61A29EE7DDA00F00A1E /* GoogleService-Info.plist */,
@@ -114,12 +91,6 @@
 				659EC60129EE4B6100F00A1E /* ContentView.swift */,
 				659EC60329EE4B6200F00A1E /* Assets.xcassets */,
 				659EC60529EE4B6200F00A1E /* Preview Content */,
-				65C5F9EE2A020E62005AED12 /* LampiManager.swift */,
-				65C5F9F02A020EB3005AED12 /* Lampi.swift */,
-				65C5F9F42A02BE80005AED12 /* ImportTests.swift */,
-				65C5F9F62A02CDDC005AED12 /* API.swift */,
-				65C5F9F92A031E01005AED12 /* LampiApp.swift */,
-				65C5F9FB2A031F91005AED12 /* BTLE.swift */,
 				65C5FA192A039BAC005AED12 /* BTLEObject.swift */,
 			);
 			path = Smartshow;
@@ -308,19 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C5F9F52A02BE80005AED12 /* ImportTests.swift in Sources */,
-				65C5F9F12A020EB3005AED12 /* Lampi.swift in Sources */,
 				659EC62529EE82C200F00A1E /* Application.swift in Sources */,
-				65C5F9EF2A020E62005AED12 /* LampiManager.swift in Sources */,
 				659EC62229EE817A00F00A1E /* SignUpVM.swift in Sources */,
 				659EC60229EE4B6100F00A1E /* ContentView.swift in Sources */,
-				65C5F9FA2A031E01005AED12 /* LampiApp.swift in Sources */,
-				65C5F9F72A02CDDC005AED12 /* API.swift in Sources */,
 				659EC61329EE6EBB00F00A1E /* SignUpTitleView.swift in Sources */,
 				659EC60029EE4B6100F00A1E /* SmartShowApp.swift in Sources */,
-				65051C232A01A135008EF046 /* SmartShowAlbum.swift in Sources */,
 				659EC61729EE73EB00F00A1E /* SignUpItemsGroupView.swift in Sources */,
-				65C5F9FC2A031F91005AED12 /* BTLE.swift in Sources */,
 				659EC61529EE716F00F00A1E /* SignUpItemView.swift in Sources */,
 				659EC61929EE79D000F00A1E /* SwitchToLoginView.swift in Sources */,
 				65C5FA1A2A039BAC005AED12 /* BTLEObject.swift in Sources */,
