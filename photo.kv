@@ -1,0 +1,76 @@
+#:kivy 1.9
+
+WindowManager:
+    NoAuthWindow:
+    HomeWindow:
+    SlideShowWindow:
+
+<WindowManager>:    
+    NoAuthWindow:
+        id: no_auth_win
+        name: "no_auth"
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                size_hint_y: 0.40 
+                id: welcome_text
+                text: 'Welcome to SmartShow!'
+                text_size: self.width, self.height 
+                font_size: 25
+                halign: 'center'
+                valign: 'bottom'
+                color: 0,0.5,0.5,1
+            Label:
+                size_hint_y: 0.45
+                id: welcome_subtext
+                text: 'Make a slideshow with your Google Photos Albums'
+                text_size: self.width, self.height
+                font_size: 18
+                halign: 'center'
+                valign: 'top'
+                padding_y: 5
+            Label:
+                size_hint_y: 0.15
+                id: connection_state_label
+                text: 'Waiting on connection with\nGoogle Photos'
+                text_size: self.width, self.height
+                halign: 'center'
+                valign: 'center'
+    
+    HomeWindow:
+        id: home_win
+        name: "home"
+        
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                id: album_selected
+                size_hint_y: 0.25
+                text: 'Album: ' + app.album
+
+            Label:
+                id: slideshow_speed
+                size_hint_y: 0.25
+                text: 'Speed: ' + app.speed
+
+            Label:
+                id: slideshow_animation
+                size_hint_y: 0.25
+                text: 'Animation: ' + app.animation
+
+            Label:
+                id: smartshow_logo
+                size_hint_y: 0.25
+                text: 'SmartShow'
+                canvas.before:
+                    Color:
+                        rgba: 0, 0.5, 0.5, 1
+                    Rectangle:
+                        pos: self.pos
+                        size: self.size
+    SlideShowWindow:
+        id: slideshow_win
+        name: "slideshow"
+        
+        Carousel:
+            id: slideshow 
